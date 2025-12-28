@@ -1,0 +1,44 @@
+/* Special Menu Styles */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+}
+
+.column-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.column-header img {
+    width: 60px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.item-details h4 {
+    font-size: 1.1rem;
+    color: var(--text-white);
+    margin-bottom: 5px;
+}
+
+.item-details p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.item-price {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.2rem;
+}

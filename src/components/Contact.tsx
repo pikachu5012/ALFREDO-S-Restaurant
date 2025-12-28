@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
                     <h5 className="font-miniver text-gold text-3xl mb-6">Appointment</h5>
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-10 tracking-[5px] uppercase">make appointment!</h2>
                     <a href="tel:+12123456789" className="inline-block group">
-                        <h2 className="text-4xl md:text-6xl font-bold text-white group-hover:text-gold transition-colors duration-300 tracking-tighter">+1 212 345 6789</h2>
+                        <h2 className="text-4xl md:text-6xl font-bold text-white group-hover:text-gold transition-colors duration-300 tracking-tighter">+201019022435</h2>
                         <div className="h-1 w-0 group-hover:w-full bg-gold transition-all duration-500 mx-auto mt-2"></div>
                     </a>
                 </div>

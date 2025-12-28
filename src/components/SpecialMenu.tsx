@@ -18,30 +18,30 @@ const SpecialMenu: React.FC = () => {
             img: "/images/imgi_8_fd1.png",
             title: "PIZZAS",
             items: [
-                { name: "MARGHERITA", desc: "Tomato sauce, fresh mozzarella, basil, extra virgin olive oil", price: "$18" },
-                { name: "QUATTRO FORMAGGI", desc: "Mozzarella, gorgonzola, parmesan, and ricotta cheese", price: "$22" },
-                { name: "ALFREDO'S SPECIAL", desc: "Creamy white sauce, grilled chicken, mushrooms, and spinach", price: "$25" },
-                { name: "DIAVOLA", desc: "Spicy salami, hot chili peppers, tomato sauce, and mozzarella", price: "$24" }
+                { name: "MARGHERITA", desc: "Tomato sauce, fresh mozzarella, basil, extra virgin olive oil", price: "250EGP" },
+                { name: "QUATTRO FORMAGGI", desc: "Mozzarella, gorgonzola, parmesan, and ricotta cheese", price: "309EGP" },
+                { name: "ALFREDO'S SPECIAL", desc: "Creamy white sauce, grilled chicken, mushrooms, and spinach", price: "349EGP" },
+                { name: "DIAVOLA", desc: "Spicy salami, hot chili peppers, tomato sauce, and mozzarella", price: "330EGP" }
             ]
         },
         {
             img: "/images/imgi_9_fd2.png",
             title: "PASTAS",
             items: [
-                { name: "FETTUCCINE ALFREDO", desc: "Rich creamy parmesan sauce with butter and fresh parsley", price: "$21" },
-                { name: "PENNE ALL'ARRABBIATA", desc: "Spicy tomato sauce with garlic and fresh red chili peppers", price: "$19" },
-                { name: "SPAGHETTI CARBONARA", desc: "Pecorino cheese, guanciale, and black pepper", price: "$23" },
-                { name: "SEAFOOD LINGUINE", desc: "Fresh mussels, clams, shrimp, and calamari in white wine", price: "$28" }
+                { name: "FETTUCCINE ALFREDO", desc: "Rich creamy parmesan sauce with butter and fresh parsley", price: "200EGP" },
+                { name: "PENNE ALL'ARRABBIATA", desc: "Spicy tomato sauce with garlic and fresh red chili peppers", price: "150EGP" },
+                { name: "SPAGHETTI CARBONARA", desc: "Pecorino cheese, guanciale, and black pepper", price: "230EGP" },
+                { name: "SEAFOOD LINGUINE", desc: "Fresh mussels, clams, shrimp, and calamari in white wine", price: "315EGP" }
             ]
         },
         {
             img: "/images/imgi_10_fd3.png",
             title: "CALZONES",
             items: [
-                { name: "CLASSIC ITALIAN", desc: "Folded pizza stuffed with ricotta, mozzarella, and prosciutto", price: "$20" },
-                { name: "VEGGIE CALZONE", desc: "Spinach, mushrooms, roasted peppers, and three cheeses", price: "$19" },
-                { name: "MEAT FEAST", desc: "Salami, pepperoni, ham, and mozzarella with marinara", price: "$22" },
-                { name: "BUFFALO CHICKEN", desc: "Grilled chicken, buffalo sauce, and blue cheese", price: "$21" }
+                { name: "CLASSIC ITALIAN", desc: "Folded pizza stuffed with ricotta, mozzarella, and prosciutto", price: "250EGP" },
+                { name: "VEGGIE CALZONE", desc: "Spinach, mushrooms, roasted peppers, and three cheeses", price: "269EGP" },
+                { name: "MEAT FEAST", desc: "Salami, pepperoni, ham, and mozzarella with marinara", price: "349EGP" },
+                { name: "BUFFALO CHICKEN", desc: "Grilled chicken, buffalo sauce, and blue cheese", price: "329EGP" }
             ]
         }
     ]
